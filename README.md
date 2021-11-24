@@ -107,6 +107,7 @@ There are four key scripts in this repository:
 * `fewshot_ood_main.py` and `fewshot_ood_diva_main.py` to run fewshot-shot ___ooDML___-experiments on all DML criteria.
 
 Here are exemplary uses for each script:
+
 1.
 ```
 python ood_main.py --checkpoint --data_hardness $split_id --kernels 6 --source $datapath --n_epochs 200 --log_online --project DML_OOD-Shift_Study --group CUB_ID-1_Margin_b12_Distance --seed 0 --gpu $gpu --bs 112 --samples_per_class 2 --loss margin --batch_mining distance --arch resnet50_frozen_normalize --embed_dim 512
