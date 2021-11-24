@@ -163,13 +163,11 @@ Assuming your folder is placed in e.g. `<$datapath/cub200>`, pass `$datapath` as
 ## Citation
 If you use the code in this repository, insights and/or the ooDML benchmark, we kindly ask that you cite
 ```
-@misc{milbich2021characterizing,
+@inproceedings{milbich2021characterizing,
       title={Characterizing Generalization under Out-Of-Distribution Shifts in Deep Metric Learning},
       author={Timo Milbich and Karsten Roth and Samarth Sinha and Ludwig Schmidt and Marzyeh Ghassemi and Björn Ommer},
       year={2021},
-      eprint={2107.09562},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      booktitle={Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS)}
 }
 ```
 Thanks! :)
